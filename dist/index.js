@@ -1,3 +1,4 @@
-import fs from 'fs';
-fs;
+import express from "express";
+const app = express();
+app.listen(4000, () => console.log('server started'));
 //# sourceMappingURL=index.js.map
